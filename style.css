@@ -189,3 +189,8 @@ abbr{
 abbr:hover{
     text-decoration: underline;
 }
+@media only screen and (max-width: 500px) {
+    header > h1{
+        font-size: 2em;
+    }
+}
